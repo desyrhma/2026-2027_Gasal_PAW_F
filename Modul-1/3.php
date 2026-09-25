@@ -1,4 +1,4 @@
-//ini embedded-script
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +7,14 @@
     <title></title>
 </head>
 <body>
+    //ini embedded-script
     <?php echo "Hello World";?>
 </body>
 </html>
 
-// ini non-embedded-script
+
 <?php
+//ini non-embedded-script
 echo "Hello World";
 
 ?>
