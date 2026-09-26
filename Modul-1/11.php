@@ -1,5 +1,5 @@
 <?php
-$string = "Hello world!";
+$kata = "Hello world!";
 
-echo strpos($string, "world");
+echo strpos($kata, "world");
 ?>

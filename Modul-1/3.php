@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body>
-    //ini embedded-script
+    <!-- ini embedded-script -->
     <?php echo "Hello World";?>
 </body>
 </html>

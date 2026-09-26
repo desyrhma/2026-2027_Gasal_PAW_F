@@ -1,5 +1,5 @@
 <?php
-$string="Hello world!";
+$kata="Hello world!";
 
-echo str_replace("world","Dolly",$string);
+echo str_replace("world","Dolly",$kata);
 ?>
