@@ -6,6 +6,7 @@
     <title></title>
 </head>
 <body>
+    <!-- ini embedded-script -->
     <?php echo "Hello world";?>
 </body>
 </html>
