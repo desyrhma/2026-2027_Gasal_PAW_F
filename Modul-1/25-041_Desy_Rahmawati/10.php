@@ -2,6 +2,6 @@
 $kata="Hello world!";
 
 echo strrev($kata);
-//dapat menggunakna tanpa variabel
+//dapat menggunakan tanpa variabel
 // echo strrev("Hello world!");
 ?>
