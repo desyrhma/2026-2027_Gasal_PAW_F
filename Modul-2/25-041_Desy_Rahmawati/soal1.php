@@ -4,7 +4,7 @@ $praktikum = ["JARKOM", "PAW"];
 
 for ($i = 0; $i < count($matkul); $i++) {
 
-    if (in_array($matkul[$i], $praktikum)) {
+   if ($matkul[$i] == $praktikum[0] || $matkul[$i] == $praktikum[1]) {
         echo "Saya sedang mengambil matkul " . $matkul[$i] . " termasuk praktikum nya<br>";
         
     } elseif ($i == 6 || $i == 7) {
