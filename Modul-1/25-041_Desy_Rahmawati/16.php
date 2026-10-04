@@ -1,6 +1,6 @@
 <?php
-function setheight($minheight){
+function setheight($minheight =50){
     echo "The height is : $minheight <br>";
 }
-setheight(50)
+setheight()
 ?>

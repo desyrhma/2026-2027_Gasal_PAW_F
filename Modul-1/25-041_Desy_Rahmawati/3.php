@@ -1,4 +1,4 @@
- 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +9,6 @@
 <body>
     <!-- ini embedded-script -->
     <?php echo "Hello World";?>
-    
 </body>
 </html>
 
