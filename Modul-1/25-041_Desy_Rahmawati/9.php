@@ -1,5 +1,5 @@
 <?php
-$kata="Hello world!";
+$kata="Hello world! kata";
 
 echo str_word_count($kata);
 //dapat menggunakan tanpa variabel
