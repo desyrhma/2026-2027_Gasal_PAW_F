@@ -36,7 +36,7 @@ echo "3.2 <br>";
 echo 'weight = (' . implode(', ', $data) . ')<br>';
 echo "<br>";
 foreach ($weight as $nama => $berat) {
-    echo $nama . " is " . $berat . " cm tall.<br>";
+    echo $nama . " is " . $berat . " kg.<br>";
 };
 
 ?>

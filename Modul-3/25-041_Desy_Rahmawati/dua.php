@@ -1,28 +1,25 @@
 <?php
-echo '2.1' . '<br>';
-$fruits = array("Avocado", "Blueberry", "Cherry");
-
-$tambahan = array("Apple", "Banana", "Mango", "Orange", "Grape");
-
-for ($i = 0; $i < count($tambahan); $i++) {
-    $fruits[] = $tambahan[$i];
+//2.1
+echo "2.1 <br>";
+$fruits = ["avocado", "blueberry", "cherry"];
+for ($i = 1; $i <= 5; $i++) {
+    $fruits[] = "Buah tambahan $i";
 }
 
+echo "Panjang array saat ini : " . count($fruits) . "<br><br>";
+
 $arrlength = count($fruits);
-
-echo "Jumlah buah: " . $arrlength . "<br>"."<br>";
-echo "Daftar buah:<br>";
-
 for ($x = 0; $x < $arrlength; $x++) {
     echo $fruits[$x] . "<br>";
 }
 
+echo "<br>";
 
-echo "<br>"."<br>";
-echo '2.2' . '<br>';
-$vegies=["Carrot","Brocoli","Spinach"];
-
-for ($i = 0; $i < count($vegies); $i++) {
-    echo $vegies[$i] . "<br>";
+//2.2
+echo "2.2 <br>";
+$sayur = ["Carrot", "Broccoli", "Spinach"];
+$arrlength = count($sayur);
+for ($x = 0; $x < $arrlength; $x++) {
+    echo $sayur[$x] . "<br>";
 }
 ?>

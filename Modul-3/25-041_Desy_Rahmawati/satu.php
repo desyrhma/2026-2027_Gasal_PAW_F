@@ -11,7 +11,6 @@ echo 'Nilai dengan indeks tertinggi: '.  end($fruits);
 
 echo "<br>"."<br>";
 
-
 echo "1.2 <br>";
 unset($fruits[1]);
 echo 'Data Blueberry dihapus.<br>';
