@@ -275,7 +275,7 @@ if (isset($_GET['tampilkan'])) {
                 Cetak PDF
             </button>
 
-            <a href="export_excel.php?tanggal_mulai=<?= urlencode($mulai) ?>&tanggal_selesai=<?= urlencode($selesai) ?>"
+            <a href="export.php?tanggal_mulai=<?= urlencode($mulai) ?>&tanggal_selesai=<?= urlencode($selesai) ?>"
                class="btn btn-excel">
                 Export Excel
             </a>
